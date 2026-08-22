@@ -1,0 +1,33 @@
+# ---------- CoreBank .gitignore ----------
+
+# Compiled class files (output of javac)
+*.class
+out/
+bin/
+target/
+
+# Log files
+*.log
+
+# Package files — never commit these
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
